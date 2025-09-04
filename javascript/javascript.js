@@ -196,34 +196,36 @@
 // }
 
 
-let a ="8812324567";
+// let a ="8812324567";
 
-for(let x in a){
-    console.log(x);
+// for(let x in a){
+//     console.log(x);
+// }
+
+
+
+
+
+// let i =0;
+// let text ="";
+
+// while(i<10){
+//     text += "The number"+i;
+//     i++;
+// }
+// console.log(text);
+
+
+
+
+
+
+
+
+
+for (var i =0;i<10;i++){
+    console.log(i);
 }
-
-
-
-
-
-let i =0;
-let text ="";
-
-while(i<10){
-    text += "The number"+i;
-    i++;
-}
-console.log(text);
-
-
-
-
-
-
-
-
-
-
 
 
 
