@@ -222,14 +222,132 @@
 
 
 
+// break and continue
+// for (var i =0;i<=10;i++){
+//     if(i==5){
+//             console.log("Inshallah");
+//     continue;
+//     }
+//     console.log(i);
+// }
 
-for (var i =0;i<=10;i++){
-    if(i==5){
-            console.log("Inshallah");
-    continue;
-    }
-    console.log(i);
-}
+
+  
+
+
+
+
+// // js set
+// const letters=new Set();
+
+// letters.add("a");
+// letters.add("b");
+// letters.add("c");
+
+// console.log(letters);
+
+
+
+
+
+
+
+
+// const fruits =new Map();
+
+// fruits.set("apples",500);
+// fruits.set("banannas",300);
+// fruits.set("orenges",200);
+
+// console.log(fruits);
+
+
+
+
+
+
+
+
+// const person={
+//     fname:'Bangladesh'
+// };
+
+
+// console.log(person['fname']);
+
+
+
+
+3
+console.log(3.toString(2));
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
