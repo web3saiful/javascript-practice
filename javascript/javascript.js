@@ -339,9 +339,9 @@
 
 
 //  RegExp  match number [ matcha array redtuns kore]
-let text="123456789";
-let result=text.match(/[1-4]/g);
-console.log(result);
+// let text="123456789";
+// let result=text.match(/[1-4]/g);
+// console.log(result);
 
 
 
@@ -352,7 +352,7 @@ console.log(result);
 
 
 //  Regular Expression  match or 
-let textt="red,green,blue, yellow"
+let textt="red,green,blue, yellow";;
 let result=text.match(/[red|green]/g);
 console.log(result);
 
