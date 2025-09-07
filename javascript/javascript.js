@@ -283,7 +283,7 @@
 
 
 
-//  RegExp  replace
+//  RegExp  search
 // let text="Visit W3Schools";
 // let n=text.search("w3Schools");
 // console.log(n);
@@ -294,7 +294,7 @@
 
 
 
-//  RegExp  match
+//  RegExp rep
 // let text="visit Microsoft!";
 // let result=text.replace("Microsoft","W3Schools");
 // console.log(result);
@@ -305,7 +305,7 @@
 
 
 
-//  RegExp  match
+//  RegExp  replace
 // let text="Visit Microsoft!";
 // let result=text.replace(/microsoft/i,"W3Schools");
 // console.log(result);
@@ -338,7 +338,23 @@
 
 
 
+//  RegExp  match number [ matcha array redtuns kore]
+let text="123456789";
+let result=text.match(/[1-4]/g);
+console.log(result);
 
+
+
+
+
+
+
+
+
+//  Regular Expression  match or 
+let textt="red,green,blue, yellow"
+let result=text.match(/[red|green]/g);
+console.log(result);
 
 
 
