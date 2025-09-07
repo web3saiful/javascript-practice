@@ -273,14 +273,7 @@
 // };
 
 
-// console.log(person['fname']);
-
-
-
-
-3
-console.log(3.toString(2));
-
+// console.log(person['fname'
 
 
  
@@ -290,6 +283,10 @@ console.log(3.toString(2));
 
 
 
+//  RegExp  replace
+// let text="Visit W3Schools";
+// let n=text.search("w3Schools");
+// console.log(n);
 
 
 
@@ -297,6 +294,10 @@ console.log(3.toString(2));
 
 
 
+//  RegExp  match
+// let text="visit Microsoft!";
+// let result=text.replace("Microsoft","W3Schools");
+// console.log(result);
 
 
 
@@ -304,6 +305,10 @@ console.log(3.toString(2));
 
 
 
+//  RegExp  match
+// let text="Visit Microsoft!";
+// let result=text.replace(/microsoft/i,"W3Schools");
+// console.log(result);
 
 
 
@@ -311,12 +316,20 @@ console.log(3.toString(2));
 
 
 
+//  RegExp  match
+// let text="Please Visit W3School Powered by W3School";
+// let result=text.replace(/microsoft/ig,"W3Schools");
+// console.log(result);
 
 
 
 
 
 
+//  RegExp  match
+// let text="Is this all there is?";
+// let result=text.match(/[h]/g);
+// console.log(result);
 
 
 
