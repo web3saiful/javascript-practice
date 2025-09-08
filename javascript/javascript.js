@@ -349,28 +349,41 @@
 
 
 
-
-
 //  Regular Expression  match or 
-let textt="red,green,blue, yellow";;
-let result=text.match(/[red|green]/g);
-console.log(result);
+// let text="red,green,blue, yellow";
+// let result=text.match(/red|green/g);
+// console.log(result);
+
+
+
+
+// getting first position of word
+// let text="HEllo LOOk At You";
+// let result=text.search(/\bLO/);
+// console.log(result);
 
 
 
 
 
+// RegExp Quantier
+// let text="HElloooo World, Hello W3Schools";
+// let result=text.match(/lo*/g);
+// console.log(result);
 
 
 
+try{
+    adddlert("Welcome guest!");
+}
+catch(err){
+    console.log(err.message);
+
+}
 
 
 
-
-
-
-
-
+ 
 
 
 
