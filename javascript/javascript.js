@@ -483,14 +483,14 @@ class Person {
     this.name = name;
     this.age = age;
   }
-  play(){
-    console.log(`${this.name} is playing`);
+  play(status){
+    console.log(`${this.name} is playing ${status}`);
   }
 }
 
 const person1 = new Person("JoHn", 19);
 const person2 = new Person("Saiful", 25);
 
-person1.play();
-person2.play();
+person1.play("well");
+person2.play("bad");
 
