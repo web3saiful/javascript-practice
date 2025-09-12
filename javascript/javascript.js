@@ -373,24 +373,62 @@
 
 
 
+// error 
+// try{
+//     adddlert("Welcome guest!");   [ adddlery is error]
+// }
+// catch(err){
+//     console.log(err.message);
 
-try{
-    adddlert("Welcome guest!");
-}
-catch(err){
-    console.log(err.message);
-
-}
-try{
-    adddlert("Welcome guest!");
-}
-catch(err){
-    console.log(err.message);
-
-}
+// }
 
 
+
+
+//   let x = 12;
+//   try {
+//     if(x == "") throw "empty";
+//     if(isNaN(x)) throw "not a number";
+//     x = Number(x);
+//     if(x < 5) throw "too low";
+//     if(x > 10) throw {
+//         message:"Too hight",
+//         name:"HightError"
+//     };
+
+//   }
+//   catch(error) {
+//     console.log("error");
+//     console.log(error.name);
+//     console.log(error.message
+//   }
+// console.log("This is a test");
  
+
+
+
+// const person = {
+//   firstName: "John",
+//   lastName : "Doe",
+//   id       : 5566,
+//   fullName : function() {
+//     return this.firstName + " " + this.lastName;
+//   }
+// };
+
+
+
+
+// const person={
+//   firstName:"John",
+//   lastName:"Doe",
+//   id:5566,
+//   fullName:function(){
+//     return this.firstName+" "+this.lastName;
+//   }
+// };
+
+// console.log(person.fullName());
 
 
 
