@@ -2,7 +2,7 @@
 // foreach  s24
 // const numbers=[45,4,9,16,25];
 
-const { jsx } = require("react/jsx-runtime");
+
 
 //  function myFunction(value,index,array){
 //     console.log(value);
@@ -460,24 +460,37 @@ const { jsx } = require("react/jsx-runtime");
 
 
 
+// // class in js
+// class person{
+// constructor(name,age){
+//   this.name=name;
+//   this.age=age;
+//   }
+// }
+
+// const person1=new person("JoHn",19);
+// const person2=new person("Saiful",25);
+// console.log(person1.name);
+// console.log(person2.age);
+
+
+
+
+
 // class in js
-class person{
-constructor(name,age){
-  this.name=name;
-  this.age=age;
+class Person {
+  constructor(name, age) {
+    this.name = name;
+    this.age = age;
+  }
+  play(){
+    console.log(`${this.name} is playing`);
   }
 }
 
-const person1=new person("JoHn",19);
-const person2=new person("Saiful",25);
-console.log(person1.name);
-console.log(person2.age);
+const person1 = new Person("JoHn", 19);
+const person2 = new Person("Saiful", 25);
 
-
-
-
-
-
-
-
+person1.play();
+person2.play();
 
