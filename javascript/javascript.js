@@ -433,10 +433,17 @@
 
 
 
+const person={
+  firstNmae:"john",
+  lastName:"Doe",
+  id:5566,
+  myFunction:function(){
+    return this;
+  }
+};
 
 
-
-
+console.log(person.myFunction());
 
 
 
