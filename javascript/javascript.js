@@ -477,20 +477,43 @@
 
 
 
-// class in js
-class Person {
-  constructor(name, age) {
-    this.name = name;
-    this.age = age;
+// // class in js
+// class Person {
+//   constructor(name, age) {
+//     this.name = name;
+//     this.age = age;
+//   }
+//   play(status){
+//     console.log(`${this.name} is playing ${status}`);
+//   }
+// }
+
+// const person1 = new Person("JoHn", 19);
+// const person2 = new Person("Saiful", 25);
+
+// person1.play("well");
+// person2.play("bad");
+
+
+
+
+
+
+
+
+
+
+
+// problelm solving
+function linearSearch(arr,val){
+  const length=arr.lenght;
+
+  for(let i=0;i<length;i++){
+    if(arr[i]===val){
+      return i;
+    }
   }
-  play(status){
-    console.log(`${this.name} is playing ${status}`);
-  }
+  return'not found!';
 }
 
-const person1 = new Person("JoHn", 19);
-const person2 = new Person("Saiful", 25);
-
-person1.play("well");
-person2.play("bad");
-
+console.log(linearSearch(['a','b','c','d','c'],'c'));
