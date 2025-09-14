@@ -521,8 +521,11 @@
 
 
 
-function longeststring(names){
-
+const person={
+  name:'Sumit',
+  age:35,
+  getName:function(){
+    return 'Sumit';
+  }
 }
-
-console.log(longeststring(['Sumit Saha','learn with sumit','alash','Saad','Daiyan']))
+console.log(person.getName());
