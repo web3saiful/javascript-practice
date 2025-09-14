@@ -528,4 +528,8 @@ const person={
     return 'Sumit';
   }
 }
-console.log(person.getName());
+const person2=person;
+
+person.age=36;
+
+console.log(person2);
