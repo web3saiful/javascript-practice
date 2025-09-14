@@ -520,16 +520,36 @@
 
 
 
+// obg 
+// const person={
+//   name:'Sumit',
+//   age:35,
+//   getName:function(){
+//     return 'Sumit';
+//   }
+// }
+// const person2=person;
 
+// person.age=36;
+
+// console.log(person2);
+
+
+
+
+
+
+
+
+
+
+// object property
 const person={
   name:'Sumit',
   age:35,
-  getName:function(){
-    return 'Sumit';
-  }
-}
-const person2=person;
+};
 
+person.name='bangladesh';
 person.age=36;
 
-console.log(person2);
+console.log(person);
