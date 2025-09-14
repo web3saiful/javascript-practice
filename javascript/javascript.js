@@ -549,7 +549,5 @@ const person={
   age:35,
 };
 
-person.name='bangladesh';
-person.age=36;
-
-console.log(person);
+console.log(person.age);
+console.lag(person['age']);
