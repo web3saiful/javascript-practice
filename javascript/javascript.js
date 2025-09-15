@@ -603,17 +603,24 @@
 
 
 
-const person={
-    firstName:"John",
-    lastName:"Doe",
-    language:"",
-    set language(lang){
-        this.language="bn";
+
+
+
+
+// constructor object 
+function person(first, last ,age){
+    this.firstName=first;
+    this.lastName=last;
+    this.age=age;
+    this.fullName=function(){
+        return this.firstName+" "+this.lastName
     }
-};
-console.log(person.fullName);
+}
 
-
+const sumit= new person  ("Sumit","Kumar", 35);
+const jasim=new person("Jasim","uddin",30);
+const rahim=new person("Rahim","khan",32);
+console.log(sumit.fullName());
 
 
 
