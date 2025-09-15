@@ -632,6 +632,35 @@
 
 
 
+// // prototype object
+// function person(first, last ,age){
+//     this.firstName=first;
+//     this.lastName=last;
+//     this.age=age;
+//     this.fullName=function(){
+//         return this.firstName+" "+this.lastName
+//     }
+// }
+
+// const sumit= new person  ("Sumit","Kumar", 35);
+// const jasim=new person("Jasim","uddin",30);
+// const rahim=new person("Rahim","khan",32);
+
+
+// person.prototype.country="Bangladesh";
+
+// console.log(rahim.country);
+
+
+
+
+
+
+
+
+
+
+
 // prototype object
 function person(first, last ,age){
     this.firstName=first;
@@ -647,9 +676,10 @@ const jasim=new person("Jasim","uddin",30);
 const rahim=new person("Rahim","khan",32);
 
 
-person.prototype.country="Bangladesh";
 
-console.log(rahim.country);
+const john={new String('John')};
+String.prototype.
+console.log(john.toUpperCase());
 
 
 
