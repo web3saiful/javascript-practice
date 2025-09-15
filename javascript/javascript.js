@@ -607,7 +607,32 @@
 
 
 
-// constructor object 
+// // constructor object 
+// function person(first, last ,age){
+//     this.firstName=first;
+//     this.lastName=last;
+//     this.age=age;
+//     this.fullName=function(){
+//         return this.firstName+" "+this.lastName
+//     }
+// }
+
+// const sumit= new person  ("Sumit","Kumar", 35);
+// const jasim=new person("Jasim","uddin",30);
+// const rahim=new person("Rahim","khan",32);
+
+// console.log(jasim.fullName());
+
+
+
+
+
+
+
+
+
+
+// prototype object
 function person(first, last ,age){
     this.firstName=first;
     this.lastName=last;
@@ -621,11 +646,12 @@ const sumit= new person  ("Sumit","Kumar", 35);
 const jasim=new person("Jasim","uddin",30);
 const rahim=new person("Rahim","khan",32);
 
-// console.log(jasim.fullName());
 
-sumit.country="Bangladesh";
+person.prototype.country="Bangladesh";
 
-console.log(sumit);
+console.log(rahim.country);
+
+
 
 
 
