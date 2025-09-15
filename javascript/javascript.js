@@ -544,10 +544,59 @@
 
 
 // object property
-const person={
-  name:'Sumit',
-  age:35,
-};
+// const person={
+//   name:'Sumit',
+//   age:35,
+// };
 
-console.log(person.age);
-console.lag(person['age']);
+// console.log(person.age);
+
+// let a ='age';
+
+// console.log(person[a]) array syntext
+// console.log(person.a) // undefined, wrong
+
+
+
+
+
+
+
+
+
+
+
+// // object properties
+// const person={
+//   fname:" Sumit",
+//   lname:" Kumar",
+//   age:25
+
+// };
+
+// let txt='';
+
+// for (let x in person){
+//   // txt += person[x];
+// txt = txt + person[x]; ??????????????Don't unederstand [x]
+
+
+// }
+
+
+// console.log(txt);
+
+
+
+
+
+
+
+// add Object propert
+const person={
+    name:"john",
+    Age:25,
+    city:"New York",
+
+};
+console.log(JSON.stringify(person));
