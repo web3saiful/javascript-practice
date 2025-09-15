@@ -620,7 +620,20 @@ function person(first, last ,age){
 const sumit= new person  ("Sumit","Kumar", 35);
 const jasim=new person("Jasim","uddin",30);
 const rahim=new person("Rahim","khan",32);
-console.log(sumit.fullName());
+
+// console.log(jasim.fullName());
+
+sumit.country="Bangladesh";
+
+console.log(sumit);
+
+
+
+
+
+
+
+
 
 
 
