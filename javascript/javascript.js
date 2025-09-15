@@ -593,10 +593,28 @@
 
 
 // add Object propert
-const person={
-    name:"john",
-    Age:25,
-    city:"New York",
+// const person={
+//     name:"john",
+//     Age:25,
+//     city:"New York",
 
+// };
+// console.log(JSON.stringify(person));
+
+
+
+const person={
+    firstName:"John",
+    lastName:"Doe",
+    language:"",
+    set language(lang){
+        this.language="bn";
+    }
 };
-console.log(JSON.stringify(person));
+console.log(person.fullName);
+
+
+
+
+
+
