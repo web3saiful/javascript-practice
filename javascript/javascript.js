@@ -685,20 +685,51 @@
 
 
 
+// // setter 
+// const person={
+//     firstName:"Sumit",
+//     lastName:"Kumar",
+//     language:"",
+//     set lang(lang){
+//         this.language=lang
+//     }
+// };
 
-const person={
-    firstName:"Sumit",
-    lastName:"Kumar",
-    language:"",
-    set lang(lang){
-        this.language=lang
-    }
-};
+// person.lang="bn";
 
-person.lang="bn";
+// console.log(person);
 
-console.log(person);
 
+
+
+
+
+
+
+// // getter and setter defineProperty
+// const person={
+//     firstName:"Sumit",
+//     lastName:"Doe"
+// };
+
+// Object.defineProperty(person,"fullName",{
+//     get :function(){
+//         return this.firstName+' '+this.lastName;
+//     }
+// });
+ 
+
+
+const letters=new Set(['a','b','c']);
+
+const lettersIterator =letters.values();
+
+for (let a of lettersIterator){
+    console.log(a);
+}
+
+
+ 
 
 
 
