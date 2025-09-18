@@ -775,9 +775,9 @@ console.log(a());
 
 
 // self-invoking function
-function(){
-    console.log("I am a ")
-}
+(function(){
+    console.log("I am a self invoking function");
+})();
 
 
 
