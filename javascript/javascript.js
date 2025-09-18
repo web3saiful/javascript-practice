@@ -759,7 +759,13 @@ console.log(fruits.get(apples));
 
 
 
+funcion
+const a=function(){
+    c=5;
+    return c;
+}
 
+console.log(a());
 
 
 
