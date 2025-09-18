@@ -799,14 +799,80 @@
 
 
 
-function myFunction(a,b){
-    console.log("Hello");
-    return a*b;
+// function myFunction(a,b){
+//     console.log("Hello");
+//     return a*b;
+// }
+
+// const result=myFunction(4,3);
+
+// console.log(result);
+
+
+
+
+
+
+
+// sort form of function
+
+// const x= function(x,y){
+//     return x*y;
+// }
+
+// const x =(x,y)=>x*y;  *****************great***********************
+
+// console.log(x(4,3));
+
+
+
+
+
+
+
+
+// aktu advance function
+// function a(x,y){
+//     x=x*5;
+//     return x*y;
+// }
+
+// let m=5;
+// let n=6;
+
+// console.log(a(m,n));
+
+
+
+
+
+
+
+
+
+
+
+function a(x){
+    x.one=7;
+    return x.one*x.two;
 }
 
-const result=myFunction(4,3);
+let m ={
+    one:4,
+    two:5
+};
 
-console.log(result);
+console.log(a(m));
+
+console.log();
+
+
+
+
+
+
+
+
 
 
 
