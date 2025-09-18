@@ -759,26 +759,54 @@
 
 
 
-// funcion
-const a=function(){
-    let c=5;
-    return c;
+// // funcion
+// const a=function(){
+//     let c=5;
+//     return c;
+// }
+
+// console.log(a());
+
+
+
+
+
+
+
+
+// // self-invoking function
+// (function(){
+//     console.log("I am a self invoking function");
+// })();
+
+
+
+
+
+
+// function myFunction(a,b){
+//     return a*b;
+// }
+
+// const result=myFunction(4,3);
+
+// console.log(result);
+
+
+
+
+
+
+
+
+function myFunction(a,b){
+    console.log("Hello");
+    return a*b;
 }
 
-console.log(a());
+const result=myFunction(4,3);
 
-
-
-
-
-
-
-
-// self-invoking function
-(function(){
-    console.log("I am a self invoking function");
-})();
-
+console.log(result);
 
 
 
