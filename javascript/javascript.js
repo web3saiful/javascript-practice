@@ -872,15 +872,43 @@
 
 
 
-// call function
-const a={
-    firstName:'Sumit',
-    sleep: function(){
-        console.log(`${this.firstName} an sleepingd`);
-    }
-}
+// // call function
+// const a={
+//     firstName:'Sumit',
+//     sleep: function(){
+//         console.log(`${this.firstName} an sleepingd`);
+//     }
+// }
 
-a.sleep();
+// a.sleep();
+
+
+
+
+
+
+
+
+
+
+const person={
+    fullName:function(){
+        return this.firstName+""+this.lastName;
+    }
+};
+
+const person1={
+    firstName:"John",
+    lastName:"Doe"
+};
+
+const person2={
+    firstName:"Mary",
+    lastName:"Doe"
+};
+
+console.log(person.fullName.call(person1));
+console.log(person.fullName.call(person2));
 
 
 
