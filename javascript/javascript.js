@@ -890,27 +890,25 @@
 
 
 
+// call function
+// const person={
+//     fullName:function(){
+//         return this.firstName+""+this.lastName;
+//     }
+// };
 
-const person={
-    fullName:function(){
-        return this.firstName+""+this.lastName;
-    }
-};
+// const person1={
+//     firstName:"John",
+//     lastName:"Doe"
+// };
 
-const person1={
-    firstName:"John",
-    lastName:"Doe"
-};
+// const person2={
+//     firstName:"Mary",
+//     lastName:"Doe"
+// };
 
-const person2={
-    firstName:"Mary",
-    lastName:"Doe"
-};
-
-console.log(person.fullName.call(person1));
-console.log(person.fullName.call(person2));
-
-
+// console.log(person.fullName.call(person1));
+// console.log(person.fullName.call(person2));
 
 
 
@@ -918,7 +916,15 @@ console.log(person.fullName.call(person2));
 
 
 
+var globalVar = "আমি গ্লোবাল!";
 
+function myFunction() {
+  console.log(globalVar); // গ্লোবাল ভেরিয়েবল অ্যাক্সেস করা হচ্ছে
+}
+
+myFunction(); // আউটপুট: আমি গ্লোবাল!
+
+ 
 
 
 
