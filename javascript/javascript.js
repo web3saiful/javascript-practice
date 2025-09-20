@@ -851,19 +851,36 @@
 
 
 
-function a(x){
-    x.one=7;
-    return x.one*x.two;
+// function a(x){
+//     x.one=7;
+//     return x.one*x.two;
+// }
+
+// let m ={
+//     one:4,
+//     two:5
+// };
+
+// console.log(a(m));
+
+// console.log();
+
+
+
+
+
+
+
+
+// call function
+const a={
+    firstName:'Sumit',
+    sleep: function(){
+        console.log(`${this.firstName} an sleepingd`);
+    }
 }
 
-let m ={
-    one:4,
-    two:5
-};
-
-console.log(a(m));
-
-console.log();
+a.sleep();
 
 
 
@@ -871,57 +888,7 @@ console.log();
 
 
 
-function a(x){
-    x.one=7;
-    return x.one*x.two;
-}
 
-let m ={
-    one:4,
-    two:5
-};
-
-console.log(a(m));
-
-console.log();
-
-
-
-
-
-function a(x){
-    x.one=7;
-    return x.one*x.two;
-}
-
-let m ={
-    one:4,
-    two:5
-};
-
-console.log(a(m));
-
-console.log();
-
-
-
-
-
-
-
-function a(x){
-    x.one=7;
-    return x.one*x.two;
-}
-
-let m ={
-    one:4,
-    two:5
-};
-
-console.log(a(m));
-
-console.log();
 
 
 
