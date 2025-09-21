@@ -942,16 +942,69 @@
 
 
 
+// function add(){
+//     let counter=0;
+//     counter=counter+1;
+//     return counter;
+// }
+// add();
+// add();
+// add();
+
+// console.log(counter);
+
+
+
+
+
+
+// // declaration in global without strict mode
+// function myFunction() {
+//    a = 4;
+// }
+// myFunction();
+// console.log(a);
+
+
+
+
+
+
+
+
+// // Initiate counter
+// let counter = 0;
+
+// // Function to increment counter
+// function add() {
+//   counter += 1;
+// }
+
+// // Call add() 3 times
+// add();
+// add();
+// add();
+
+// // The counter should now be 3
+
+
+
+
+
+
+
+let counter=0;
+
 function add(){
-    let counter=0;
     counter=counter+1;
-    return counter;
 }
+
 add();
 add();
 add();
 
 console.log(counter);
+
 
 
 
