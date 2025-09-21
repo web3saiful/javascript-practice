@@ -916,15 +916,43 @@
 
 
 
-var globalVar = "আমি গ্লোবাল!";
+// var globalVar = "আমি গ্লোবাল!";
 
-function myFunction() {
-  console.log(globalVar); // গ্লোবাল ভেরিয়েবল অ্যাক্সেস করা হচ্ছে
-}
+// function myFunction() {
+//   console.log(globalVar); // গ্লোবাল ভেরিয়েবল অ্যাক্সেস করা হচ্ছে
+// }
 
-myFunction(); // আউটপুট: আমি গ্লোবাল!
+// myFunction(); // আউটপুট: আমি গ্লোবাল!
+
+// ********vs********
+
+
+// function myFunction() {
+//   var localVar = "আমি লোকাল!";
+//   console.log(localVar); // লোকাল ভেরিয়েবল অ্যাক্সেস করা হচ্ছে
+// }
+
+// myFunction(); // আউটপুট: আমি লোকাল!
+// console.log(localVar); // এরর: localVar সংজ্ঞায়িত করা হয়নি
+
+
+
 
  
+
+
+
+function add(){
+    let counter=0;
+    counter=counter+1;
+    return counter;
+}
+add();
+add();
+add();
+
+console.log(counter);
+
 
 
 
