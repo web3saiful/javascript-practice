@@ -971,7 +971,7 @@
 
 
 
-
+// A Counter Dilemma
 // // Initiate counter
 // let counter = 0;
 
@@ -993,19 +993,14 @@
 
 
 
-let counter=0;
 
-function add(){
-    counter=counter+1;
+
+
+
+// closures are not that scary
+
+var sum=function(num1,num2){
+    return num1+num2;
 }
 
-add();
-add();
-add();
-
-console.log(counter);
-
-
-
-
-
+console.log(sum(2,3));
