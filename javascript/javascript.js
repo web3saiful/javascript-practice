@@ -993,6 +993,26 @@
 
 
 
+// // scope
+// var x=23;
+// // parent er dunia
+// function myFunc(){
+//     // child er dunia
+//     var y=10;
+//     console.log(`${x} from myfunction()`);
+// }
+
+// myFunc();
+
+// console.log(x);
+
+
+
+
+
+
+
+
 
 
 
@@ -1005,3 +1025,16 @@ var sum=function(){
 }
 
 console.log(sum(2,3));
+
+
+
+
+
+
+
+
+
+
+
+
+
