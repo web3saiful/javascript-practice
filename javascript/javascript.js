@@ -1083,9 +1083,9 @@ class Person {
 // Usage
 const person1 = new Person("Sumit", 25);
 
-console.log(person1.name); // Getter → "Sumit"
+console.log(person1.name);
 
-person1.name = "Rahim";    // Setter
+person1.name = "Rahim"
 console.lo     // Invalid setterssage
 
 
