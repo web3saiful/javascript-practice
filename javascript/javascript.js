@@ -1013,23 +1013,82 @@
 
 
 
+// // scope replace var with second declaration
+// var x=23;
+// // parent er dunia
+// function myFunc(){
+//     // child er dunia
+//     x=10;
+//     console.log(`${x} from myfunction()`);
+// }
+// myFunc();
+
+// console.log(x);
 
 
 
 
-// closures are not that scary
-var num1=2;
-var num2=3;
-var sum=function(){
-    return num1+num2;
+
+
+
+
+// // closures are not that scary
+// var num1=2;
+// var num2=3;
+// var sum=function(){
+//     return num1+num2;
+// }
+// console.log(sum(2,3));
+
+
+
+
+
+
+class Person {
+  constructor(name, age) {
+    this._name = name;
+    this._age = age;
+  }
+
+  // Getter for name
+  get name() {
+    return this._name;
+  }
+
+  // Setter for name
+  set name(newName) {
+    if (newName.length > 0) {
+      this._name = newName;
+    } else {
+      console.log("Name cannot be empty!");
+    }
+  }
+
+  // Getter for age
+  get age() {
+    return this._age;
+  }
+
+  // Setter for age
+  set age(newAge) {
+    if (newAge > 0) {
+      this._age = newAge;
+    } else {
+      console.log("Age must be positive!");
+    }
+  }
 }
 
-console.log(sum(2,3));
+// Usage
+const person1 = new Person("Sumit", 25);
 
+console.log(person1.name); // Getter → "Sumit"
 
+person1.name = "Rahim";    // Setter
+console.log(person1.name); // "Rahim"
 
-
-
+person1.age = -5;          // Invalid setter → error message
 
 
 
