@@ -1086,7 +1086,7 @@ const person1 = new Person("Sumit", 25);
 console.log(person1.name); // Getter → "Sumit"
 
 person1.name = "Rahim";    // Setter
-console.lo     // Invalid setter → error message
+console.lo     // Invalid setterssage
 
 
 
