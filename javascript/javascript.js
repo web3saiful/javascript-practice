@@ -1067,17 +1067,37 @@
 
 
 
+// // Accessor
+// const person={
+//   firstName:"John",
+//   lastName:"Doe",
+//   language:"en",
+//   get lang(){
+//     return this.language;
+//   }
+// }
+// console.log(person.lang);
+
+
+
+
+
+
 // Accessor
 const person={
   firstName:"John",
   lastName:"Doe",
   language:"en",
-  get fullName(){
-    return this.firstName+' '+this.lastName;
+  set  lang(lang){
+    this.language=lang
   }
 }
 
-console.log(person.fullName);
+person.lang="bn";
+console.log(person);
+
+
+
 
 
 
