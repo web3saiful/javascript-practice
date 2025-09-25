@@ -1083,21 +1083,38 @@
 
 
 
-// Accessor
+// // Accessor
+// const person={
+//   firstName:"John",
+//   lastName:"Doe",
+//   language:"en",
+//   set  lang(lang){
+//     this.language=lang
+//   }
+// }
+
+// person.lang="bn";
+// console.log(person);
+
+
+
+
+
+
+
+
 const person={
   firstName:"John",
-  lastName:"Doe",
-  language:"en",
-  set  lang(lang){
-    this.language=lang
-  }
-}
+  lastName:"Doe"
+};
 
-person.lang="bn";
-console.log(person);
+Object.defineProperty(person,"fullName", {
+   get:function(){
+    return this.firstName+' '+this.lastName;
+   }
+ 
+});
 
+person.age=35;
 
-
-
-
-
+console.log(person.fullName);
