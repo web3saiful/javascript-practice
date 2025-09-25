@@ -1045,48 +1045,26 @@
 
 
 
-class Person {
-  constructor(name, age) {
-    this._name = name;
-    this._age = age;
-  }
 
-  // Getter for name
-  get name() {
-    return this._name;
-  }
 
-  // Setter for name
-  set name(newName) {
-    if (newName.length > 0) {
-      this._name = newName;
-    } else {
-      console.log("Name cannot be empty!");
-    }
-  }
 
-  // Getter for age
-  get age() {
-    return this._age;
-  }
 
-  // Setter for age
-  set age(newAge) {
-    if (newAge > 0) {
-      this._age = newAge;
-    } else {
-      console.log("Age must be positive!");
-    }
+
+
+// Accessor
+const person={
+  firstName:"John",
+  lastName:"Doe",
+  language:"en",
+  get fullName(){
+    return this.language
   }
 }
 
-// Usage
-const person1 = new Person("Sumit", 25);
+console.log(person.language);
 
-console.log(person1.name);
 
-person1.name = "Rahim"
-console.lo     // Invalid setterssage
+
 
 
 
