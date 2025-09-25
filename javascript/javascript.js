@@ -1047,6 +1047,22 @@
 
 
 
+// // Accessor
+// const person={
+//   firstName:"John",
+//   lastName:"Doe",
+//   language:"en",
+//   get fullName(){
+//     return this.language
+//   }
+// }
+
+// console.log(person.language);
+
+
+
+
+
 
 
 
@@ -1057,19 +1073,11 @@ const person={
   lastName:"Doe",
   language:"en",
   get fullName(){
-    return this.language
+    return this.firstName+' '+this.lastName;
   }
 }
 
-console.log(person.language);
-
-
-
-
-
-
-
-
+console.log(person.fullName);
 
 
 
