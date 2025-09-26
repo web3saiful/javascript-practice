@@ -1103,18 +1103,40 @@
 
 
 
-const person={
-  firstName:"John",
-  lastName:"Doe"
-};
+// const person={
+//   firstName:"John",
+//   lastName:"Doe"
+// };
 
-Object.defineProperty(person,"fullName", {
-   get:function(){
-    return this.firstName+' '+this.lastName;
-   }
+// Object.defineProperty(person,"fullName", {
+//    get:function(){
+//     return this.firstName+' '+this.lastName;
+//    }
  
-});
+// });
 
-person.age=35;
+// person.age=35;
 
-console.log(person.fullName);
+// console.log(person.fullName); 
+
+
+
+
+
+
+
+
+
+
+let counter=0;
+
+function add(){
+  let counter=0;
+  counter+=1;
+}
+
+add();
+add();
+add();
+
+console.log (counter);
