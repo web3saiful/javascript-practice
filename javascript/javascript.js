@@ -1144,18 +1144,43 @@
 
 
 
-// closurs
+// // closur
+// let counter = 0; 
 
-function add() {
-  let counter = 0;
-  return counter += 1;
+// function add() {
+//   return counter += 1; /*it can memorise 1148 number line . that way it can increase the number */
+// };
+
+// console.log(add()); 
+// console.log(add()); 
+// console.log(add()); 
+// console.log(add()); 
+// console.log(add()); 
+// console.log(add()); 
+
+// // console.log(counter)
+
+
+
+
+
+
+
+
+
+
+function temporary(){
+  let counter=0; /* she mone rakte parey call hoyar pore*/
+
+  return function lang(){
+    counter+=1;
+    return counter
+  }
 };
 
-console.log(add()); 
-console.log(add()); 
-console.log(add()); 
-console.log(add()); 
-console.log(add()); 
-console.log(add()); 
 
-// console.log(counter)
+const add= temporary();
+
+add();
+
+
