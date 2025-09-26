@@ -1128,15 +1128,31 @@
 
 
 
-let counter=0;
+// let counter=0;
 
-function add(){
-  let counter=0;
-  counter+=1;
+// function add(){
+  
+//   counter+=1;
+// }
+
+// add();
+// add();
+// add();
+
+
+
+
+
+
+
+let counter = 0;   // counter starts at 0
+
+function add() {
+  counter += 1;    // each time add() is called, counter increases by 1
 }
 
+add(); 
 add();
-add();
-add();
+add();  
 
-console.log (counter);
+console.log(counter)
