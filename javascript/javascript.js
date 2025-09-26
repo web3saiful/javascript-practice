@@ -1196,10 +1196,13 @@ class car {
     this.year=year;
 
   }
+
+  run(speed){
+    console.log(this.name+'is running in '+ speed)
+  }
 }
 
 const bmw=new car('BMW', 1999);
 const audi=new car('Audi',2000)
 
-console.log(audi)
-
+audi.run('100 km per hour');
