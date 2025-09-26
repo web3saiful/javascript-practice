@@ -1199,6 +1199,7 @@ class car {
 }
 
 const bmw=new car('BMW', 1999);
+const audi=new car('Audi',2000)
 
-console.log(bmw)
+console.log(audi)
 
