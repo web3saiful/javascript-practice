@@ -1189,7 +1189,7 @@
 
 
 
-// classd
+// class
 class car {
   constructor(name,year){
     this.name=name;
