@@ -1169,18 +1169,36 @@
 
 
 
-function temporary(){
-  let counter=0; /* she mone rakte parey call hoyar pore*/
+// function temporary(){
+//   let counter=0; /* she mone rakte parey call hoyar pore*/
 
-  return function lang(){
-    counter+=1;
-    return counter
+//   return function lang(){
+//     counter+=1;
+//     return counter
+//   }
+// };
+
+
+// const add= temporary();
+
+// add();
+
+
+
+
+
+
+
+// classd
+class car {
+  constructor(name,year){
+    this.name=name;
+    this.year=year;
+
   }
-};
+}
 
+const bmw=new car('BMW', 1999);
 
-const add= temporary();
-
-add();
-
+console.log(bmw)
 
