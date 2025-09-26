@@ -1144,15 +1144,18 @@
 
 
 
-
-let counter = 0;   // counter starts at 0
+// closurs
 
 function add() {
-  counter += 1;    // each time add() is called, counter increases by 1
-}
+  let counter = 0;
+  return counter += 1;
+};
 
-add(); 
-add();
-add();  
+console.log(add()); 
+console.log(add()); 
+console.log(add()); 
+console.log(add()); 
+console.log(add()); 
+console.log(add()); 
 
-console.log(counter)
+// console.log(counter)
