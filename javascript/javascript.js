@@ -1168,7 +1168,7 @@
 
 
 
-
+//closure
 // function temporary(){
 //   let counter=0; /* she mone rakte parey call hoyar pore*/
 
@@ -1213,29 +1213,58 @@
 
 
 
+//  Inheritance
+// class car{
+//   constructor(brand){
+//     this.carname=brand;
+//   }
+//   present(){
+//     return 'I have a '+ this.carname;
+//   }
+// }
+// class Model extends car{
+//   constructor(brand, mod){
+//     super(brand)
+//     this.model=mod;
+//   }
+//   show(){
+//     return this.present() + ',it is a '+ this.model;
+//   }
+// }
+
+// let myCar=new Model("Ford","Mustang");
+
+
+// console.log(myCar.show());
+
+
+
+
+
+
+
+class Car {
+  constructor(name) {
+    this.name = name;
+  }
+  static hello() {
+    return "Hello!!";
+  }
+}
+
+const myCar = new Car("Ford");
+
+// You can call 'hello()' on the Car Class:
+console.log(Car.hello());
+
+// But NOT on a Car Object:
+// document.getElementById("demo").innerHTML = myCar.hello();
+// this will raise an error.
+
+
  
-class car{
-  constructor(brand){
-    this.carname=brand;
-  }
-  present(){
-    return 'I have a '+ this.carname;
-  }
-}
-class Model extends car{
-  constructor(brand, mod){
-    super(brand)
-    this.model=mod;
-  }
-  show(){
-    return this.present() + ',it is a '+ this.model;
-  }
-}
-
-let myCar=new Model("Ford","Mustang");
 
 
-console.log(myCar.show());
 
 
 
