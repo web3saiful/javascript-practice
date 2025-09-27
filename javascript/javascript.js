@@ -1189,20 +1189,60 @@
 
 
 
-// class
-class car {
-  constructor(name,year){
-    this.name=name;
-    this.year=year;
+// // class
+// class car {
+//   constructor(name,year){
+//     this.name=name;
+//     this.year=year;
 
+//   }
+
+//   run(speed){
+//     console.log(this.name+'is running in '+ speed)
+//   }
+// }
+
+// const bmw=new car('BMW', 1999);
+// const audi=new car('Audi',2000)
+
+// audi.run('100 km per hour');
+
+
+
+
+
+
+
+ 
+class car{
+  constructor(brand){
+    this.carname=brand;
   }
-
-  run(speed){
-    console.log(this.name+'is running in '+ speed)
+  present(){
+    return 'I have a '+ this.carname;
+  }
+}
+class Model extends car{
+  constructor(brand, mod){
+    super(brand)
+    this.model=mod;
+  }
+  show(){
+    return this.present() + ',it is a '+ this.model;
   }
 }
 
-const bmw=new car('BMW', 1999);
-const audi=new car('Audi',2000)
+let myCar=new Model("Ford","Mustang");
 
-audi.run('100 km per hour');
+
+console.log(myCar.show());
+
+
+
+
+
+
+
+
+
+
