@@ -1254,7 +1254,7 @@ class Car {
 
 const myCar = new Car("Ford");
 
-// You can call 'hello()' on the Car Class:
+// You can call 'hello()
 console.log(Car.hello());
 
 
