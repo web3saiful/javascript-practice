@@ -1251,7 +1251,6 @@ class Car {
     return "Hello!!";
   }
 }
-
 const myCar = new Car("Ford");
 
 
