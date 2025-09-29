@@ -1262,31 +1262,33 @@
 
 
 
-class Car {
-  constructor(name) {
-    this.name = name;
+// class Car {
+//   constructor(name) {
+//     this.name = name;
+//   }
+//   static hello(x) {
+//     return "Hello " + x.name;
+//   }
+// }
+// const myCar = new Car("Ford");
+// console.log(Car.hello(myCar));
+
+
+
+
+
+
+
+
+  function display(some){
+    console.log(some);
+
   }
-  static hello(x) {
-    return "Hello " + x.name;
+  function calculator(num1,num2){
+    let sum=num1+num2;
+    display(sum);
   }
-}
-const myCar = new Car("Ford");
-console.log(Car.hello(myCar));
 
-
-
-
-
-
-
-
-class Car {
-  constructor(name) {
-    this.name = name;
-  }
-  static hello(x) {
-    return "Hello " + x.name;
-  }
-}
-const myCar = new Car("Ford");
-console.log(Car.hello(myCar));
+  let result=myCalculator(5,5);
+  display(result);   
+  calculator(5,5);
