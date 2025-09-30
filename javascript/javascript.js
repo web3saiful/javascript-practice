@@ -1263,7 +1263,7 @@
 
 
 // class Car {
-//   constructor(name) {
+// onstructor(name) {
 //     this.name = name;
 //   }
 //   static hello(x) {
@@ -1272,6 +1272,8 @@
 // }
 // const myCar = new Car("Ford");
 // console.log(Car.hello(myCar));
+  
+
 
 
 
@@ -1296,18 +1298,24 @@
 
 
 
-// callback
-  function display(some){
-    console.log(some);
+// // callback
+//   function display(some){
+//     console.log(some);
 
-  }
-  function calculator(num1,num2, callback){
-    let sum=num1+num2;
-    callback(sum);
-  }
+//   }
+//    function mobile(sum){
+//     console.log(sum+2)
+
+//    }
+//   function calculator(num1,num2, callback){
+//     let sum=num1+num2;
+//     callback(sum);
+//   }
 
   
-  calculator(5,5,display);
+  // calculator(5,5,display);
+  // calculator(5,5,mobile);
+
 
 
   
