@@ -1383,13 +1383,13 @@
 
 
 
-console.log('Line 1 code');
+// console.log('Line 1 code');
 
-setTimeout(function(){
-  console.log('line 2 code');
-},2000);
+// setTimeout(function(){
+//   console.log('line 2 code');
+// },2000);
 
-console.log('line 3 code');
+// console.log('line 3 code');
  
 
 
@@ -1400,8 +1400,8 @@ console.log('line 3 code');
 
 console.log('Line 1 code');
 
-setInerval(function(){
+setinterval(function(){
   console.log('line 2 code');
 },2000);
 
-console.lo('line 3 code');
+console.log('line 3 code')
