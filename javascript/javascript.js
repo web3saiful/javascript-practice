@@ -2,6 +2,8 @@
 // foreach  s24
 // const numbers=[45,4,9,16,25];
 
+const { useCallback } = require("react");
+
 // const { useCallback } = require("react");
 
 
@@ -1398,10 +1400,27 @@
 
 
 
-console.log('Line 1 code');
+// console.log('Line 1 code');
 
-setinterval(function(){
-  console.log('line 2 code');
-},2000);
+// setinterval(function(){
+//   console.log('line 2 code');
+// },2000);
 
-console.log('line 3 code')
+// console.og('line 3 code')
+
+
+
+
+
+
+ const paymentSuccess=true;
+
+function enroll(){
+  console.log('Course enrollment is in progress.');
+   
+  setTimeout(function(){
+
+    
+  },2000);
+}
+
