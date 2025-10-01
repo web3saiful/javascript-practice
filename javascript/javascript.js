@@ -2,7 +2,7 @@
 // foreach  s24
 // const numbers=[45,4,9,16,25];
 
-const { useCallback } = require("react");
+// const { useCallback } = require("react");
 
 // const { useCallback } = require("react");
 
@@ -1415,11 +1415,15 @@ const { useCallback } = require("react");
 
  const paymentSuccess=true;
 
-function enroll(){
+function enroll(callback){
   console.log('Course enrollment is in progress.');
    
   setTimeout(function(){
-
+    if(paymentSuccess){
+      callback();
+    }else{
+      console.log('Payment failed!');
+    }
     
   },2000);
 }
