@@ -1428,3 +1428,15 @@ function enroll(callback){
   },2000);
 }
 
+function progress(callback){
+  console.log('Course on progress....');
+
+  setTimeout(function(){
+    if(marks>=80){
+       callback();
+    }else{
+      console.log('You could not get enough marks to get the certificate');
+    }
+  },3000)
+
+}
