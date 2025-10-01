@@ -2,7 +2,7 @@
 // foreach  s24
 // const numbers=[45,4,9,16,25];
 
-const { useCallback } = require("react");
+// const { useCallback } = require("react");
 
 
 
@@ -1366,3 +1366,15 @@ const { useCallback } = require("react");
 
 
 
+
+
+
+
+
+console.log('Line 1 code');
+
+setTimeout(function(){
+  console.log('line 2 code');
+},2000);
+
+console.log('line 3 code');
