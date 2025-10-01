@@ -2,6 +2,8 @@
 // foreach  s24
 // const numbers=[45,4,9,16,25];
 
+const { useCallback } = require("react");
+
 
 
 //  function myFunction(value,index,array){
@@ -1327,19 +1329,19 @@
 
 
 
-// // callback
-  function display(some){
-    console.log(some);
+// // callback function
+//   function display(some){
+//     console.log(some);
 
-  }
+//   }
 
-  function calculator(num1,num2, mycallback){
-    let sum=num1+num2;
-     mycallback(sum);
-    // return sum;
-  }
+//   function calculator(num1,num2,callback){
+//     let sum=num1+num2;
+//      if(sum)callback(sum);
+//     return sum;
+//   }
 
-  calculator(5,5,display);
+//   calculator(5,5,display);
   
 
 
@@ -1349,6 +1351,17 @@
 
 
 
+// // useCallback
+// function calculator(num1,num2,callback){
+//   let sum=num1+num2;
+
+//   if(callback)callback(sum); 
+//   return sum;
+// }
+
+// calculator(5,5,function(result){
+//   console.log(result);
+// });
 
 
 
