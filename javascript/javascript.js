@@ -1333,13 +1333,13 @@
 
   }
 
-  function calculator(num1,num2, callback){
+  function calculator(num1,num2, mycallback){
     let sum=num1+num2;
-    if(callback) callback(sum);
-    return sum;
+     mycallback(sum);
+    // return sum;
   }
 
-  calculator(5,5,);
+  calculator(5,5,display);
   
 
 
