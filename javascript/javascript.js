@@ -1440,3 +1440,11 @@ function progress(callback){
   },3000)
 
 }
+
+function getCertificate(){
+  console.log('Preparing your certificate!')
+  
+  setTimeout(function(){
+     console.log("Congrate!You got the certificate");
+  },1000)
+}
