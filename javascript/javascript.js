@@ -1371,9 +1371,36 @@
 
 
 
+// console.log('Line 1 code');
+
+// setTimeout(function(){
+//   console.log('line 2 code');
+// },2000);
+
+// console.log('line 3 code');
+
+
+
+
+
 console.log('Line 1 code');
 
 setTimeout(function(){
+  console.log('line 2 code');
+},0);
+
+console.log('line 3 code');
+ 
+
+
+
+
+
+
+
+console.log('Line 1 code');
+
+setImterval(function(){
   console.log('line 2 code');
 },2000);
 
