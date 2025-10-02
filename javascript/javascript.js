@@ -1459,7 +1459,7 @@
 
 
 // Promise
-const status=true;
+const status=false;
 
 console.log('Task 1');
 
@@ -1467,7 +1467,7 @@ setTimeout(function(){
    if(status){
  console.log('Task 2');
    }else{
-    console.log();
+    console.log('failed');
    }
   
 },2000);
