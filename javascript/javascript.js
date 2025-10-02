@@ -1459,7 +1459,7 @@
 
 
 // Promise
-const status=false;
+const status=true;
 
 console.log('Task 1');
 
