@@ -1463,13 +1463,16 @@ const status=false;
 
 console.log('Task 1');
 
-setTimeout(function(){
+const promise=new Promise(function(resolve,reject){
+    setTimeout(function(){
    if(status){
- console.log('Task 2');
+     resolve('Task 2');
    }else{
-    console.log('failed');
+       reject('failed');
    }
-  
-},2000);
+   
+  },2000);
+});
+
 
 console.log('Task 3');
