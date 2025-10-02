@@ -1473,6 +1473,13 @@ const promise=new Promise(function(resolve,reject){
    
   },2000);
 });
-
+ promise
+        .then(function(value){
+          console.log(value);
+        })
+        .catch(function(err){
+          console.log(err)
+        });
+        
 
 console.log('Task 3');
