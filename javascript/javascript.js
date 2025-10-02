@@ -1372,7 +1372,7 @@
 
 
 
-
+// asynchronous
 // console.log('Line 1 code');
 
 // setTimeout(function(){
@@ -1384,7 +1384,7 @@
 
 
 
-
+// Asynchronous
 // console.log('Line 1 code');
 
 // setTimeout(function(){
@@ -1399,7 +1399,7 @@
 
 
 
-
+// Asynchronous
 // console.log('Line 1 code');
 
 // setinterval(function(){
@@ -1412,44 +1412,61 @@
 
 
 
+// Asynchronous callback Pattern
+//  const paymentSuccess=true;
+//  const marks=85;
 
- const paymentSuccess=true;
- const marks=85;
-
-function enroll(callback){
-  console.log('Course enrollment is in progress.');
+// function enroll(callback){
+//   console.log('Course enrollment is in progress.');
    
-  setTimeout(function(){
-    if(paymentSuccess){
-      callback();
-    }else{
-      console.log('Payment failed!');
-    }
+//   setTimeout(function(){
+//     if(paymentSuccess){
+//       callback();
+//     }else{
+//       console.log('Payment failed!');
+//     }
     
-  },2000);
-}
+//   },2000);
+// }
 
-function progress(callback){
-  console.log('Course on progress....');
+// function progress(callback){
+//   console.log('Course on progress....');
 
-  setTimeout(function(){
-    if(marks>=80){
-       callback();
-    }else{
-      console.log('You could not get enough marks to get the certificate');
-    }
-  },3000)
+//   setTimeout(function(){
+//     if(marks>=80){
+//        callback();
+//     }else{
+//       console.log('You could not get enough marks to get the certificate');
+//     }
+//   },3000)
 
-}
+// }
 
-function getCertificate(){
-  console.log('Preparing your certificate!')
+// function getCertificate(){
+//   console.log('Preparing your certificate!')
   
-  setTimeout(function(){
-     console.log("Congrate!You got the certificate");
-  },1000)
+//   setTimeout(function(){
+//      console.log("Congrate!You got the certificate");
+//   },1000)
+// }
+
+// enroll(function(){
+//   progress(getCertificate);
+// });
+
+
+
+
+
+
+function task4(){
+  console.log('Task 4');
+  
 }
 
-enroll(function(){
-  progress(getCertificate);
-});
+
+console.log('Task 1');
+
+console.log('Task 2');
+
+console.log('Task 3');
