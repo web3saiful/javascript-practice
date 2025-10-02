@@ -1414,6 +1414,7 @@
 
 
  const paymentSuccess=true;
+ const marks=85;
 
 function enroll(callback){
   console.log('Course enrollment is in progress.');
@@ -1448,3 +1449,7 @@ function getCertificate(){
      console.log("Congrate!You got the certificate");
   },1000)
 }
+
+enroll(function(){
+  progress(getCertificate);
+});
