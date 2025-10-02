@@ -1458,15 +1458,18 @@
 
 
 
-
-function task4(){
-  console.log('Task 4');
-  
-}
-
+// Promise
+const status=true;
 
 console.log('Task 1');
 
-console.log('Task 2');
+setTimeout(function(){
+   if(status){
+ console.log('Task 2');
+   }else{
+    console.log();
+   }
+  
+},2000);
 
 console.log('Task 3');
