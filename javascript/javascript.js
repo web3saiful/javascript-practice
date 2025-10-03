@@ -1494,7 +1494,7 @@
 
 // Promise
 const paymentSuccess=true;
-const marks=((98));
+const marks=((78));
 
 function enroll(){
      console.log('Course enrollment is in progress.');
