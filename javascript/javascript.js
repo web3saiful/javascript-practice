@@ -1602,7 +1602,14 @@ function getCertificate(){
 
 
 async function course(){
-   await enroll
+   await enroll();
+   await progress();
+   const message=await getCertificate();
+
+   console.log(message);
+   
+} catch(err){
+  console.log(err);
 }
 
 course();
