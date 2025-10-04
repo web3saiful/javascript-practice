@@ -1560,7 +1560,7 @@
      
 // Promise
 const paymentSuccess=true;
-const marks=((78));
+const marks=((98));
 
 function enroll(){
      console.log('Course enrollment is in progress.');
@@ -1585,7 +1585,7 @@ const promise=new Promise(function(resolve,reject){
     if(marks>=80){
       resolve();
     }else{
-      reject('you could not get enough marks to get certifiate');
+      reject('You could not get enough marks to get certifiate');
     }
   },3000)
 })
@@ -1596,22 +1596,24 @@ const promise=new Promise(function(resolve,reject){
 function getCertificate(){
   console.log('Preparing your certificate!');
 
-  const promise=new Promise.resolve("Congrate!YOU got the certificate");
+  const promise=Promise.resolve("Congrate!YOU got the certificate");
    return promise;
 }
 
 
 async function course(){
+  try{
+
    await enroll();
    await progress();
    const message=await getCertificate();
 
    console.log(message);
    
-} catch(err){
+  } catch(err){
   console.log(err);
+   }
 }
-
 course();
 
 // enroll()
