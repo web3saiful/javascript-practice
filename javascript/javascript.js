@@ -1600,6 +1600,13 @@ function getCertificate(){
    return promise;
 }
 
+
+async function course(){
+   await enroll
+}
+
+course();
+
 // enroll()
 //      .then(progress)
 //      .then(getCertificate)
