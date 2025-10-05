@@ -1,4 +1,6 @@
-async function hello(){
-    return 'Hello';
+const x = document.forms["frm1"];
+let text = "";
+for (let i = 0; i < x.length ;i++) {
+  text += x.elements[i].value + "<br>";
 }
-console.log(hello());
+document.getElementById("demo").innerHTML = text;

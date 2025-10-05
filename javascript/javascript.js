@@ -1558,63 +1558,64 @@
 
 
      
-// Promise
-const paymentSuccess=true;
-const marks=((98));
+// //async await
+// const paymentSuccess=true;
+// const marks=((98));
 
-function enroll(){
-     console.log('Course enrollment is in progress.');
-     const promise=new Promise(function(resolve,reject){
-          setTimeout(function(){
-   if(paymentSuccess){
-     resolve(paymentSuccess);
-   }else{
-       reject('Payment failed');
-   } 
+// function enroll(){
+//      console.log('Course enrollment is in progress.');
+//      const promise=new Promise(function(resolve,reject){
+//           setTimeout(function(){
+//    if(paymentSuccess){
+//      resolve(paymentSuccess);
+//    }else{
+//        reject('Payment failed');
+//    } 
    
-  },2000);
-     });
-     return promise;
-}
+//   },2000);
+//      });
+//      return promise;
+// }
 
-function progress(){
-console.log('Course on progress...');
+// function progress(){
+// console.log('Course on progress...');
 
-const promise=new Promise(function(resolve,reject){
-  setTimeout(function(){
-    if(marks>=80){
-      resolve();
-    }else{
-      reject('You could not get enough marks to get certifiate');
-    }
-  },3000)
-})
+// const promise=new Promise(function(resolve,reject){
+//   setTimeout(function(){
+//     if(marks>=80){
+//       resolve();
+//     }else{
+//       reject('You could not get enough marks to get certifiate');
+//     }
+//   },3000)
+// })
 
-   return promise
-}
+//    return promise
+// }
+
+// function getCertificate(){
+//   console.log('Preparing your certificate!');
+
+//   const promise=Promise.resolve("Congrate!YOU got the certificate");
+//    return promise;
+// }
+
+
+// async function course(){
+//   try{
+
+//    await enroll();
+//    await progress();
+//    const message=await getCertificate();
+
+//    console.log(message);
    
-function getCertificate(){
-  console.log('Preparing your certificate!');
+//   } catch(err){
+//   console.log(err);
+//    }
+// }
 
-  const promise=Promise.resolve("Congrate!YOU got the certificate");
-   return promise;
-}
-
-
-async function course(){
-  try{
-
-   await enroll();
-   await progress();
-   const message=await getCertificate();
-
-   console.log(message);
-   
-  } catch(err){
-  console.log(err);
-   }
-}
-course();
+// course();
 
 // enroll()
 //      .then(progress)
