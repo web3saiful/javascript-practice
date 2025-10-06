@@ -1629,17 +1629,30 @@
 
 
 
-// Error handeler
+// // Error handeler
+// try{
+//   //regular code
+// }catch(err){
+//   console.log(err)
+// }
+
+
+
+
+
+
+
+
+let x="";
+
 try{
-  //regular code
-}catch(err){
-  console.log(err)
+  if(x=="")throw "empty";
+  if(isNaN(x)) throw "not a number";
+  x=Number(x);
+  if(x<5) throw "too low";
+  if(x>10) throw "too high"
 }
-
-
-
-
-
-
-
-
+catch(err){
+  console.innerHTML="Input is"+err;
+}
+console.log("This is a test"); 
