@@ -1,3 +1,3 @@
-const element =document.getElementById('myImage');
+const element =document.getElementById('demo');
 
-element.src="test.jpg";
+element.innerHTML=`Today's  date is :${Date()}`;

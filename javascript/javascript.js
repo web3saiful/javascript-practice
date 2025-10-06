@@ -1643,19 +1643,24 @@
 
 
 
-let x="566";
+// let x="566";
 
-try{
-  if(x=="")throw "empty";
-  if(isNaN(x)) throw "not a number";
-  x=Number(x);
-  if(x<5) throw "too low";
-  if(x>10) throw {
-    message:"Too hight",  //object 
-    name:"Hight"
-  };
-}
-catch(err){
-  console.log(err);
-}
-console.log("This is a test"); 
+// try{
+//   if(x=="")throw "empty";
+//   if(isNaN(x)) throw "not a number";
+//   x=Number(x);
+//   if(x<5) throw "too low";
+//   if(x>10) throw {
+//     message:"Too hight",  //object 
+//     name:"Hight"
+//   };
+// }
+// catch(err){
+//   console.log(err);
+// }
+// console.log("This is a good test"); 
+
+
+
+
+
