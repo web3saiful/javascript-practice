@@ -1,3 +1,3 @@
-const eliment =document.getElementById('myImage');
+const element =document.getElementById('myImage');
 
-console.dir(element);
+element.src="test.jpg";

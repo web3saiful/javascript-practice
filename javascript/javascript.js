@@ -1601,31 +1601,27 @@
 // }
 
 
-// async function course(){
+
+
+
+
+
+
+
+
+// async function course() {
 //   try{
+//   await enroll();
+//   await progress();
+//   const message=await getCertificate()
+// console.log(message);
 
-//    await enroll();
-//    await progress();
-//    const message=await getCertificate();
-
-//    console.log(message);
-   
-//   } catch(err){
-//   console.log(err);
+//    }catch(err){
+//     console.log(err);
 //    }
 // }
-
 // course();
 
-// enroll()
-//      .then(progress)
-//      .then(getCertificate)
-//      .then(function(value){
-//       console.log(value);
-//      })
-//      .catch(function(err){
-//       console.log(err)
-//      });
 
 
 
@@ -1633,11 +1629,12 @@
 
 
 
-
-
-
-
-
+// Error handeler
+try{
+  //regular code
+}catch(err){
+  console.log(err)
+}
 
 
 
