@@ -24,4 +24,6 @@
 
 
 
-const x=document.forms["myForm"];
+const p=document.getElementById("demo");
+
+p.innerHTML="hello wd"; 
