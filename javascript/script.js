@@ -89,7 +89,16 @@
 
 
 // DOM Event
-function changeText(){
-    const title=document.querySelector('#title');
-  title.innerHTML="hello world";
-};
+// function changeText(){
+//     const title=document.querySelector('#title');
+//   title.innerHTML="hello world";
+// };
+
+
+
+
+const button=document.querySelector('#button');
+
+button.onclick=function(){
+    console.log("hello world");
+}
