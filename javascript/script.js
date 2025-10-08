@@ -51,11 +51,12 @@
 
 
 
-const p=document.querySelector('#demo');
+setTimeout(function(){
+    const p=document.querySelector('#demo');
 
-p.style.color='red';
-p.style.fontSize="30px";
-
+    p.style.color='red';
+    p.style.fontSize='30px';
+},2000)
 
 
 
