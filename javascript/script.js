@@ -6,16 +6,6 @@
 
 
 
-// function validateForm(){
-//     const form=document.forms['myForm'];
-//     console.log (form['fname']);
-
-//     return false;
-// }
-
-
-
-
 
 // const x = document.forms["frm1"];
 // console.log(x);
@@ -24,6 +14,46 @@
 
 
 
-const p=document.getElementById("demo");
+// const p=document.getElementById("demo");
 
-p.innerHTML="hello wd"; 
+// p.innerHTML="hello wd";\
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+function validateForm(){
+    const form=document.forms['myForm'];
+    const value=form['fname'].value;
+    
+    if(value===''){
+        alert("You must type name");
+        return false;
+    }
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
