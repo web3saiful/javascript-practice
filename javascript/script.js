@@ -89,3 +89,7 @@
 
 
 // DOM Event
+function changeText(){
+    const title=document.querySelector('#title');
+  title.innerHTML="hello world";
+}  
