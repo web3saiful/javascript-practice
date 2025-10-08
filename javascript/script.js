@@ -51,22 +51,37 @@
 
 
 
-function styling(){
-    const p=document.querySelector('#demo');
+// // function styling(){
+//     const p=document.querySelector('#demo');
+//     p.style.color='red';
+//     p.style.fontSize='30px';
+// }
 
-    p.style.color='red';
-    p.style.fontSize='30px';
+
+
+
+
+
+
+
+
+
+function myMove(){
+    const animate=document.getElementById("animate");
+    let pos=0;
+
+    const interval=setInterval(frame,5);
+    function frame(){
+        if(pos<350){
+        pos++;
+        animate.style.top=pos+'px';
+        animate.style.left=pos+'px';
+        }else{
+            clearInterval(interval);
+        }
+    }
 }
 
-
-
-
-
-
-
-
-
-
-
+myMove();
 
 
