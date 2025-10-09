@@ -122,6 +122,26 @@
 
 
 
+// function myFunction(){
+//     console.log("Hello world");
+// }
+
+
+// button.addEventListener('click',function(){
+    //     console.log('Hello world');
+    // });
+    
+    
+//     const button=document.getElementById("button");
+
+// button.addEventListener('mouseover',function(){
+//     console.log('user put his mouse over this element');
+// });
 
 
 
+const button = document.getElementById("button");
+
+button.addEventListener('mouseout', function() {
+  console.log('User put his mouse over this element');
+});
