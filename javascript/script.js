@@ -97,8 +97,24 @@
 
 
 
-const button=document.querySelector('#button');
+// const button=document.querySelector('#button');
 
-button.onclick=function(){
-    console.log("hello world");
+// button.onclick=function(){
+//     console.log("hello world");
+// }
+
+
+
+
+
+
+function  changeText(id){
+    console.log(id);
+
 }
+
+
+
+
+
+
