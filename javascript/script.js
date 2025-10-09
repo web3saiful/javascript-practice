@@ -153,7 +153,20 @@ function myFunction(text){
     console.log(text);
 }
 const button=document.getElementById("button");
+const container=document.getElementById("container");
 
-button.addEventListener('mouseover',function(){
-    myFunction("hello world");
-});
+button.addEventListener('click',function(){
+    myFunction("hello button");
+},true);
+
+container.addEventListener('click',function(){
+    myFunction("hello div");
+},true);
+
+
+
+
+
+
+
+
