@@ -108,10 +108,17 @@
 
 
 
-function  changeText(id){
-    console.log(id);
+// function  changeText(id){
+//    console.log(id);
+ 
+// }
 
-}
+
+// const button=document.querySelector("#button");
+
+// button.onclick=function(){
+//     console.log("Hello world");
+// }
 
 
 
