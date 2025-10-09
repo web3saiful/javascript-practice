@@ -140,8 +140,20 @@
 
 
 
-const button = document.getElementById("button");
+// const button = document.getElementById("button");
 
-button.addEventListener('mouseout', function() {
-  console.log('User put his mouse over this element');
+// button.addEventListener('mouseout', function() {
+//   console.log('User put his mouse over this element');
+// });
+
+
+
+
+function myFunction(text){
+    console.log(text);
+}
+const button=document.getElementById("button");
+
+button.addEventListener('mouseover',function(){
+    myFunction("hello world");
 });
