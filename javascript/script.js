@@ -188,11 +188,17 @@
 
 
 
-
-const p=document.getElementById('demo');
-
-
-console.log(p.innerHTML);
+// navigator DOM
+// const p=document.getElementById('demo');
 
 
+// console.log(p.innerHTML);
+
+
+// const wey2=p.firstChild.nodeValue;
+
+// const wey3=p.childNoddes[0].nodeValue;
+
+// console.log(wey2);
+console.log(document.documentElement);
 
