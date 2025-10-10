@@ -149,24 +149,50 @@
 
 
 
-function myFunction(text){
-    console.log(text);
-}
-const button=document.getElementById("button");
-const container=document.getElementById("container");
+// function myFunction(text){
+//     console.log(text);
+// }
+// const button=document.getElementById("button");
+// const container=document.getElementById("container");
 
-button.addEventListener('click',function(){
-    myFunction("hello button");
-},true);
+// button.addEventListener('click',function(){
+//     myFunction("hello button");
+// },true);
 
-container.addEventListener('click',function(){
-    myFunction("hello div");
-},true);
-
-
+// container.addEventListener('click',function(){
+//     myFunction("hello div");
+// },true);
 
 
 
+
+
+
+
+
+// document.getElementById("myDIV").addEventListener("mousemove", myFunction);
+
+// function myFunction() {
+//   document.getElementById("demo").innerHTML = Math.random();
+// }
+
+// function removeHandler() {
+//   document.getElementById("myDIV").removeEventListener("mousemove", myFunction);
+// }
+
+
+
+
+
+
+
+
+
+
+const p=document.getElementById('demo');
+
+
+console.log(p.innerHTML);
 
 
 
