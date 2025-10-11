@@ -3,7 +3,7 @@
 function randomNumber(min,max){
 	return Math.floor(Math.random()*(max-min+1))+min;
 }
-console.log(getRandomNumber(1,6));
+console.log(randomNumber(1,6));
 
 
 
@@ -11,7 +11,7 @@ console.log(getRandomNumber(1,6));
 
 
 
-`How can we arrage everyone's names alphabetically in our classroom?`
-const students=["Sumit","Saad","Minhaj","amdad sir","brather"];
+// `How can we arrage everyone's names alphabetically in our classroom?`
+// const students=["Sumit","Saad","Minhaj","amdad sir","brather"];
 
-console.log(students.sort());
+// console.log(students.sort());
