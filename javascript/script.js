@@ -200,5 +200,17 @@
 // const wey3=p.childNoddes[0].nodeValue;
 
 // console.log(wey2);
-console.log(document.documentElement);
+const para=document.createElement("p");
+
+const node=document.createTextNode("HELLO World");
+
+para.appendChild(node); // <p>HELLO World</p>
+
+const element=document.getElementById("div1");
+
+const p2=document.getElementById("p2");
+
+element.insertBefore(para,p2);
+
+
 
