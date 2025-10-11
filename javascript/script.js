@@ -239,8 +239,26 @@
 
 
 
+// // removeChild
+// const div=document.getElementById('div1');
+// const p2=document.getElementById('p2');
 
-const div=document.getElementById('div1');
-const p2=document.getElementById('p2');
+// div1.removeChild(p2);
 
-div1.removeChild(p2);
+
+
+
+
+
+
+
+//replaceChilds
+// learned from w3schools.com
+
+
+
+
+
+
+
+console.dir(document.getElementByIdTagName("p"));
