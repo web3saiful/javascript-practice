@@ -11,7 +11,7 @@ console.log(getRandomNumber(1,6));
 
 
 
-
+`How can we arrage everyone's names alphabetically in our classroom?`
 const students=["Sumit","Saad","Minhaj","amdad sir","brather"];
 
 console.log(students.sort());
