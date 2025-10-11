@@ -231,6 +231,16 @@
 
 
 
+// remove element
+// const p2 =document.getElementById('p2');
+// p2.remove();
 
-const p2 =document.getElementById('p2');
-p2.remove();
+
+
+
+
+
+const div=document.getElementById('div1');
+const p2=document.getElementById('p2');
+
+div1.removeChild(p2);
