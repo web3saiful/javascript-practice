@@ -1,4 +1,4 @@
-How can we print numbers from one to six randomly in ludo game?
+// How can we print numbers from one to six randomly in ludo game?
 
 function randomNumber(min,max){
 	return Math.floor(Math.random()*(max-min+1))+min;
