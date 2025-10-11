@@ -269,15 +269,15 @@
 
 
 
-const nodeList=document.querySelectorAll('.hello');
-const htmlCollection=document.getElementsByClassName('hello');
+// const nodeList=document.querySelectorAll('.hello');
+// const htmlCollection=document.getElementsByClassName('hello');
 
-console.dir(nodeList);
-console.dir(htmlCollection);
+// console.dir(nodeList);
+// console.dir(htmlCollection);
 
-console.log(htmlCollection['one'])
+// console.log(htmlCollection['one'])
 
-console.log(nodeList[0]);
+// console.log(nodeList[0]);
 
 
 
