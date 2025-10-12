@@ -22,8 +22,24 @@
 
 
 
-const roll_numbers=[8,3,5,1,4,6,2,7];
+// // `How can we arrage everyone's roll numbers in descending order in our classroom?`	
+// const roll_numbers=[8,3,5,1,4,6,2,7];
 
-console.log(roll_numbers.sort(function(a,b){
-	return b-a;
-}))
+// console.log(roll_numbers.sort(function(a,b){
+// 	return b-a;
+// }))
+
+
+
+
+
+function isLeapYear(year){
+	if((year%400===0)|| ((year%4===0)&&(year%100!==0))){
+		console.log(`${year} is a leap year`);
+	}else{
+		console.log(`${year} is not a leap year`);
+	}
+}
+
+isLeapYear(3040);
+
