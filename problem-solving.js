@@ -33,13 +33,35 @@
 
 
 
-function isLeapYear(year){
-	if((year%400===0)|| ((year%4===0)&&(year%100!==0))){
-		console.log(`${year} is a leap year`);
-	}else{
-		console.log(`${year} is not a leap year`);
-	}
-}
+// function isLeapYear(year){
+// 	if((year%400===0)|| ((year%4===0)&&(year%100!==0))){
+// 		console.log(`${year} is a leap year`);
+// 	}else{
+// 		console.log(`${year} is not a leap year`);
+// 	}
+// }
 
-isLeapYear(3040);
+// isLeapYear(3040);
+
+
+
+
+
+const vowels=["a","e","i","o","u","A","E","I","o","U"];
+
+
+function countVowels(sentence){
+	let count=0;
+	const letters=Array.from(sentence);
+
+	letters.forEach(function(value))
+
+}
+console.log(countVowels("Hello World"));
+
+
+
+
+
+
 
