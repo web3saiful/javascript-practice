@@ -46,7 +46,7 @@
 
 
 
-
+// how to indicate how many vowel are in the sentanc?
 const vowels=["a","e","i","o","u","A","E","I","o","U"];
 
 
@@ -60,10 +60,28 @@ function countVowels(sentence){
 		}
 	});
 
-	return  count;
+	return  count; 
 
 }
 console.log(countVowels("Hello World"));
+
+
+
+
+
+
+
+
+
+
+// How can i remove duplicate numbers from an arry?
+const numbers=[1,4,5,6,7,6,8,9,10,4];
+
+const duplicate=numbers.filter(function(value,index,array){
+	return array.indexOf(value)!==index
+});
+
+console.log(duplicate);
 
 
 
