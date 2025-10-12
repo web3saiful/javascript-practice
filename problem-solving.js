@@ -54,7 +54,13 @@ function countVowels(sentence){
 	let count=0;
 	const letters=Array.from(sentence);
 
-	letters.forEach(function(value))
+	letters.forEach(function(value){
+		if(vowels.includes(value)){
+			count++;
+		}
+	});
+
+	return  count;
 
 }
 console.log(countVowels("Hello World"));
